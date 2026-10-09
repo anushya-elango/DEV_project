@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.10.0.min.js"></script>
+<script>
+Bokeh.set_log_level("info");
+</script>
+  </head>
+  <body>
+    <div id="baf8cc5d-78c5-40d6-b211-59d75f3d44c5" data-root-id="p1011" style="display: contents;"></div>
+  
+    <script type="application/json" id="df3f8265-3338-4fee-8c10-cda9468be334">
+      {"da9e2b71-1be2-4682-b0b5-282a8be00895":{"version":"3.10.0","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1053","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1054"}}},"roots":[{"type":"object","name":"Figure","id":"p1011","attributes":{"width":800,"height":450,"x_range":{"type":"object","name":"DataRange1d","id":"p1012"},"y_range":{"type":"object","name":"DataRange1d","id":"p1013"},"x_scale":{"type":"object","name":"LogScale","id":"p1021"},"y_scale":{"type":"object","name":"LogScale","id":"p1022"},"title":{"type":"object","name":"Title","id":"p1014","attributes":{"text":"Facilities vs Footprint (Bokeh)"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1049","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1008","attributes":{"selected":{"type":"object","name":"Selection","id":"p1009","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1010"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/w3DhU5CAQAAwGcrtohid3d3NyYqNnZ3/P/m3XZBEAQppppmuhlmmmW2OYbMNc98Cyy0yGJLDFtqxDLLjVphpVVWW2OtddbbYKNNNttiq22222GnXXbbY6999jvgoEMOO+KoY4474aRTTjvjrHPOu+CiSy674qprrrthzE233HbHXfeMu++BhyY88tgTTz3z3AuTXnrltTfeeue9Dz765LMvvvrmux9++uW3P/765z8qZPOE0AEAAA=="},"shape":[116],"dtype":"int32","order":"little"}],["country",{"type":"ndarray","array":["United States of America","France","Germany","United Kingdom","Netherlands","Australia","Japan","China","Canada","Ireland","Russia","India","Italy","Singapore","Brazil","South Africa","Spain","Argentina","Belgium","New Zealand","Switzerland","Indonesia","Mexico","Finland","Sweden","Poland","Chile","Iceland","Denmark","Malaysia","Czechia","Hungary","Iran","Norway","Philippines","Portugal","Hong Kong S.A.R.","Turkey","United Arab Emirates","Austria","South Korea","Croatia","Venezuela","Colombia","Luxembourg","Pakistan","Peru","Taiwan","Vietnam","Greece","Bulgaria","Costa Rica","Bangladesh","Ecuador","Kazakhstan","Latvia","Morocco","Ukraine","Israel","Lithuania","Romania","Slovakia","Thailand","Azerbaijan","Bahrain","El Salvador","Iraq","Belarus","Georgia","Slovenia","Armenia","Bolivia","Ghana","Isle of Man","Kenya","Lebanon","Lesotho","Malawi","Moldova","Nepal","North Macedonia","Papua New Guinea","Puerto Rico","Republic of Serbia","Saudi Arabia","Sri Lanka","Uganda","Uruguay","Albania","Angola","Bhutan","Cabo Verde","Cura\u00e7ao","Dominican Republic","Egypt","Ethiopia","Faroe Islands","Ivory Coast","Kosovo","Laos","Macao S.A.R","Madagascar","Mauritius","Mozambique","Nauru","New Caledonia","Nigeria","Palestine","Panama","Paraguay","Syria","Trinidad and Tobago","Tunisia","Tuvalu","United Republic of Tanzania","Uzbekistan"],"shape":[116],"dtype":"object","order":"little"}],["osm_facilities",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/73QvQqCABTF8ZOVhmEfDpWCZERTLi0O0QPU1Ba9R3P0AD6ITxn0F64Q4igOP869Z7v360qvgZThgFJSgQ/eeOKBO2644oIzcpxwNHuyskOKrUnIGBE2Zk2uTEjWlsyVBeaYITBT0m8xofMM56jNmL5pRPdvyF5zmLvAS9WnHw/HTC/QAQAA"},"shape":[116],"dtype":"int32","order":"little"}],["with_footprint",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/4XOOwrCQBDG8VFjXF8REZ+NhaWITZoUdh7BC+gRPIMH9//JDERJcOHHPHZmk2dutuqYZUh4mNkLV9xR4YYL9jhjhBNKHLH2uwNxi6XX6m+w857yhSuIemeMGQZQb44Jph6VZxhC84r8pvHbnzxBuz30XZeoHc0F1brXiVlF9WNWtXalvqtaR72489bXfNNuvBPzqn/z6NW/2Tb3r/8GNKznm9ABAAA="},"shape":[116],"dtype":"int32","order":"little"}],["continent",{"type":"ndarray","array":["North America","Europe","Europe","Europe","Europe","Oceania","Asia","Asia","North America","Europe","Europe","Asia","Europe","Asia","South America","Africa","Europe","South America","Europe","Oceania","Europe","Asia","North America","Europe","Europe","Europe","South America","Europe","Europe","Asia","Europe","Europe","Asia","Europe","Asia","Europe","Asia","Asia","Asia","Europe","Asia","Europe","South America","South America","Europe","Asia","South America","Asia","Asia","Europe","Europe","North America","Asia","South America","Asia","Europe","Africa","Europe","Asia","Europe","Europe","Europe","Asia","Asia","Asia","North America","Asia","Europe","Asia","Europe","Asia","South America","Africa","Europe","Africa","Asia","Africa","Africa","Europe","Asia","Europe","Oceania","North America","Europe","Asia","Asia","Africa","South America","Europe","Africa","Asia","Africa","North America","North America","Africa","Africa","Europe","Africa","Europe","Asia","Asia","Africa","Seven seas (open ocean)","Africa","Oceania","Oceania","Africa","Asia","North America","South America","Asia","North America","Africa","Oceania","Africa","Asia"],"shape":[116],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1050","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1051"}}},"glyph":{"type":"object","name":"Scatter","id":"p1046","attributes":{"x":{"type":"field","field":"osm_facilities"},"y":{"type":"field","field":"with_footprint"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.7},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p1047","attributes":{"x":{"type":"field","field":"osm_facilities"},"y":{"type":"field","field":"with_footprint"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p1048","attributes":{"x":{"type":"field","field":"osm_facilities"},"y":{"type":"field","field":"with_footprint"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1020","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1033"},{"type":"object","name":"WheelZoomTool","id":"p1034","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1035","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1036","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1042","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1041","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1043"},{"type":"object","name":"ResetTool","id":"p1044"},{"type":"object","name":"HelpTool","id":"p1045"},{"type":"object","name":"HoverTool","id":"p1052","attributes":{"renderers":"auto","tooltips":[["Country","@country"],["Facilities","@osm_facilities"],["Footprint","@with_footprint"]],"sort_by":null}}]}},"left":[{"type":"object","name":"LogAxis","id":"p1028","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p1029","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p1030"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1031"}}}],"below":[{"type":"object","name":"LogAxis","id":"p1023","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p1024","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p1025"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1026"}}}],"center":[{"type":"object","name":"Grid","id":"p1027","attributes":{"axis":{"id":"p1023"}}},{"type":"object","name":"Grid","id":"p1032","attributes":{"dimension":1,"axis":{"id":"p1028"}}}]}}]}}
+    </script>
+    <script>
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('df3f8265-3338-4fee-8c10-cda9468be334').textContent;
+              const render_items = [{"docid":"da9e2b71-1be2-4682-b0b5-282a8be00895","roots":{"p1011":"baf8cc5d-78c5-40d6-b211-59d75f3d44c5"},"root_ids":["p1011"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

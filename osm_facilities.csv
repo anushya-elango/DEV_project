@@ -1,0 +1,117 @@
+country,country_iso2,country_iso3,continent,subregion,osm_facilities,with_name,with_operator,with_city,with_footprint
+United States of America,US,USA,North America,Northern America,1789,1350,1139,844,1650
+France,FR,FRA,Europe,Western Europe,371,287,286,79,278
+Germany,DE,DEU,Europe,Western Europe,300,208,184,146,260
+United Kingdom,GB,GBR,Europe,Northern Europe,293,241,205,143,264
+Netherlands,NL,NLD,Europe,Western Europe,167,114,103,81,98
+Australia,AU,AUS,Oceania,Australia and New Zealand,139,126,115,0,132
+Japan,JP,JPN,Asia,Eastern Asia,127,95,82,9,68
+China,CN,CHN,Asia,Eastern Asia,125,90,17,2,97
+Canada,CA,CAN,North America,Northern America,88,66,48,46,57
+Ireland,IE,IRL,Europe,Northern Europe,86,66,64,5,84
+Russia,RU,RUS,Europe,Eastern Europe,79,61,37,19,61
+India,IN,IND,Asia,Southern Asia,73,62,19,5,31
+Italy,IT,ITA,Europe,Southern Europe,72,52,43,17,47
+Singapore,SG,SGP,Asia,South-Eastern Asia,60,56,8,51,10
+Brazil,BR,BRA,South America,South America,58,48,26,14,45
+South Africa,ZA,ZAF,Africa,Southern Africa,54,30,33,2,52
+Spain,ES,ESP,Europe,Southern Europe,49,40,31,9,43
+Argentina,AR,ARG,South America,South America,43,33,18,5,23
+Belgium,BE,BEL,Europe,Western Europe,43,35,28,4,31
+New Zealand,NZ,NZL,Oceania,Australia and New Zealand,35,29,18,4,35
+Switzerland,CH,CHE,Europe,Western Europe,35,29,25,19,25
+Indonesia,ID,IDN,Asia,South-Eastern Asia,33,32,25,4,21
+Mexico,MX,MEX,North America,Central America,32,29,23,0,31
+Finland,FI,FIN,Europe,Northern Europe,31,18,18,19,23
+Sweden,SE,SWE,Europe,Northern Europe,31,25,24,4,24
+Poland,PL,POL,Europe,Eastern Europe,29,21,16,21,26
+Chile,CL,CHL,South America,South America,26,23,11,4,21
+Iceland,IS,ISL,Europe,Northern Europe,25,22,20,17,24
+Denmark,DK,DNK,Europe,Northern Europe,24,17,17,0,19
+Malaysia,MY,MYS,Asia,South-Eastern Asia,24,8,1,2,19
+Czechia,CZ,CZE,Europe,Eastern Europe,23,23,11,3,14
+Hungary,HU,HUN,Europe,Eastern Europe,22,13,16,13,10
+Iran,IR,IRN,Asia,Southern Asia,22,19,6,4,11
+Norway,NO,NOR,Europe,Northern Europe,18,10,7,1,15
+Philippines,PH,PHL,Asia,South-Eastern Asia,18,13,5,4,7
+Portugal,PT,PRT,Europe,Southern Europe,18,9,9,1,14
+Hong Kong S.A.R.,HK,HKG,Asia,Eastern Asia,17,12,3,2,17
+Turkey,TR,TUR,Asia,Western Asia,17,16,11,5,12
+United Arab Emirates,AE,ARE,Asia,Western Asia,16,13,10,2,13
+Austria,AT,AUT,Europe,Western Europe,15,14,9,10,12
+South Korea,KR,KOR,Asia,Eastern Asia,14,11,8,2,12
+Croatia,HR,HRV,Europe,Southern Europe,13,11,9,2,4
+Venezuela,VE,VEN,South America,South America,13,12,12,4,9
+Colombia,CO,COL,South America,South America,11,6,1,0,10
+Luxembourg,LU,LUX,Europe,Western Europe,10,9,4,7,9
+Pakistan,PK,PAK,Asia,Southern Asia,10,10,1,0,1
+Peru,PE,PER,South America,South America,10,9,7,2,6
+Taiwan,TW,TWN,Asia,Eastern Asia,10,4,2,3,9
+Vietnam,VN,VNM,Asia,South-Eastern Asia,10,9,9,0,8
+Greece,GR,GRC,Europe,Southern Europe,8,7,2,1,7
+Bulgaria,BG,BGR,Europe,Eastern Europe,7,7,4,0,3
+Costa Rica,CR,CRI,North America,Central America,7,7,4,1,5
+Bangladesh,BD,BGD,Asia,Southern Asia,6,3,0,0,5
+Ecuador,EC,ECU,South America,South America,6,6,2,1,2
+Kazakhstan,KZ,KAZ,Asia,Central Asia,6,5,0,0,4
+Latvia,LV,LVA,Europe,Northern Europe,6,0,3,1,1
+Morocco,MA,MAR,Africa,Northern Africa,6,6,1,1,1
+Ukraine,UA,UKR,Europe,Eastern Europe,6,3,3,0,1
+Israel,IL,ISR,Asia,Western Asia,5,1,0,0,4
+Lithuania,LT,LTU,Europe,Northern Europe,5,1,2,3,5
+Romania,RO,ROU,Europe,Eastern Europe,5,4,2,3,0
+Slovakia,SK,SVK,Europe,Eastern Europe,5,4,3,0,3
+Thailand,TH,THA,Asia,South-Eastern Asia,5,4,1,0,5
+Azerbaijan,AZ,AZE,Asia,Western Asia,4,4,1,0,3
+Bahrain,BH,BHR,Asia,Western Asia,4,4,4,0,4
+El Salvador,SV,SLV,North America,Central America,4,2,0,0,4
+Iraq,IQ,IRQ,Asia,Western Asia,4,4,1,0,1
+Belarus,BY,BLR,Europe,Eastern Europe,3,2,2,2,3
+Georgia,GE,GEO,Asia,Western Asia,3,3,0,0,2
+Slovenia,SI,SVN,Europe,Southern Europe,3,2,1,0,2
+Armenia,AM,ARM,Asia,Western Asia,2,2,2,1,1
+Bolivia,BO,BOL,South America,South America,2,2,1,2,1
+Ghana,GH,GHA,Africa,Western Africa,2,2,1,0,1
+Isle of Man,IM,IMN,Europe,Northern Europe,2,2,1,2,2
+Kenya,KE,KEN,Africa,Eastern Africa,2,1,0,0,0
+Lebanon,LB,LBN,Asia,Western Asia,2,2,1,0,1
+Lesotho,LS,LSO,Africa,Southern Africa,2,0,0,0,2
+Malawi,MW,MWI,Africa,Eastern Africa,2,2,0,0,1
+Moldova,MD,MDA,Europe,Eastern Europe,2,2,0,1,0
+Nepal,NP,NPL,Asia,Southern Asia,2,2,1,0,0
+North Macedonia,MK,MKD,Europe,Southern Europe,2,1,1,0,2
+Papua New Guinea,PG,PNG,Oceania,Melanesia,2,1,1,0,2
+Puerto Rico,PR,PRI,North America,Caribbean,2,1,2,1,1
+Republic of Serbia,RS,SRB,Europe,Southern Europe,2,1,1,0,2
+Saudi Arabia,SA,SAU,Asia,Western Asia,2,1,1,0,2
+Sri Lanka,LK,LKA,Asia,Southern Asia,2,2,1,1,1
+Uganda,UG,UGA,Africa,Eastern Africa,2,2,1,0,1
+Uruguay,UY,URY,South America,South America,2,2,2,1,1
+Albania,AL,ALB,Europe,Southern Europe,1,1,0,0,1
+Angola,AO,AGO,Africa,Middle Africa,1,0,0,0,1
+Bhutan,BT,BTN,Asia,Southern Asia,1,1,1,0,0
+Cabo Verde,CV,CPV,Africa,Western Africa,1,1,0,0,0
+Curaçao,CW,CUW,North America,Caribbean,1,1,0,0,1
+Dominican Republic,DO,DOM,North America,Caribbean,1,1,1,0,0
+Egypt,EG,EGY,Africa,Northern Africa,1,1,1,0,0
+Ethiopia,ET,ETH,Africa,Eastern Africa,1,0,0,0,1
+Faroe Islands,FO,FRO,Europe,Northern Europe,1,1,0,0,0
+Ivory Coast,CI,CIV,Africa,Western Africa,1,1,1,0,1
+Kosovo,XK,,Europe,Southern Europe,1,1,0,1,0
+Laos,LA,LAO,Asia,South-Eastern Asia,1,1,0,0,1
+Macao S.A.R,MO,MAC,Asia,Eastern Asia,1,1,0,0,1
+Madagascar,MG,MDG,Africa,Eastern Africa,1,0,0,0,1
+Mauritius,MU,MUS,Seven seas (open ocean),Eastern Africa,1,1,1,0,1
+Mozambique,MZ,MOZ,Africa,Eastern Africa,1,1,0,0,0
+Nauru,NR,NRU,Oceania,Micronesia,1,1,0,0,0
+New Caledonia,NC,NCL,Oceania,Melanesia,1,1,1,1,1
+Nigeria,NG,NGA,Africa,Western Africa,1,1,1,0,0
+Palestine,PS,PSE,Asia,Western Asia,1,1,0,0,1
+Panama,PA,PAN,North America,Central America,1,1,0,0,1
+Paraguay,PY,PRY,South America,South America,1,1,0,0,0
+Syria,SY,SYR,Asia,Western Asia,1,1,0,0,0
+Trinidad and Tobago,TT,TTO,North America,Caribbean,1,1,1,1,1
+Tunisia,TN,TUN,Africa,Northern Africa,1,1,0,0,0
+Tuvalu,TV,TUV,Oceania,Polynesia,1,1,0,0,1
+United Republic of Tanzania,TZ,TZA,Africa,Eastern Africa,1,0,1,0,1
+Uzbekistan,UZ,UZB,Asia,Central Asia,1,1,1,0,0
